@@ -1,0 +1,206 @@
+@font-face {
+    font-family: RobotoR;
+    src: url(font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoL;
+    src: url(font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: RobotoM;
+    src: url(font/Roboto-Medium.ttf);
+}
+body{
+    font-family: RobotoR;
+    margin: 0%;
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .logo{
+            margin: 2%;
+            width: 20%;
+        }
+    }
+    main{
+        .leformulaire{    
+            width: 100%;
+            .form{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                &__field{
+                    display: flex;
+                    justify-content: center;
+                    background-color: #e0e0e0;
+                    border: none;
+                    
+                    &--pin{
+                        border: none;
+                        background-color: #e0e0e0;
+                        font-size: 1.5em;
+                        color:rgb(56, 56, 56);
+                    }
+                    &--input{
+                        border: none;
+                        background-color: #e0e0e0;
+                        font-size: 1.5em;
+                        font-family: RobotoM;
+                        color:rgb(56, 56, 56);
+                    }
+                }
+                &__description{
+                    background-color: #F2F2F2;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;    
+                    &--title{
+                        font-family: RobotoM;
+                    }
+                    &--txt{
+                        font-family: RobotoL;
+                    }
+                    &--explore{
+                        border: none;
+                        border-radius: 100px;
+                        background: rgb(147,86,220);
+                        background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+                        color: white;
+                        font-family: RobotoM;
+                        font-size: 1.2em;
+                        margin: 50px;
+                        margin-top: 30px;
+                        padding: 0.5em;
+                        width: 250px;
+        
+                    }
+                }
+            }
+        }
+        .lefonctionnement{
+            .functioning{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                &__title{
+                    font-family: RobotoB;
+                }
+                &__steps{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 80%;
+                    .functioning__step{
+                        display: flex;
+                        align-items: center;
+                        margin: 1%;
+                        &--bubble{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #9356DC;
+                            border-radius: 20px;
+                            color: white;
+                            width: 1.7em;
+                            height: 1.7em;
+                            margin-right: -15px;
+                            z-index: 10;
+
+                        }
+                        &--content{
+                            display: flex;
+                            align-items: center;
+                            background-color: #F2F2F2;
+                            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+                            border-radius: 30px;
+                            font-family: RobotoM;
+                            width: 300px;
+                            height: 80px;
+                            &-icon{
+                                font-size: 1.3em;
+                                margin: 30px;
+                                margin-left: 40px;
+                            }
+                            &-txt{
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .lesrestaurants{
+            .restaurant{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &__title{
+
+                }
+                &__cards{
+                    display: flex;
+                    width: 100%;
+                    .card{
+                        width: 23%;
+                        line-height: 17px;
+                        background-color: white;
+                        border-radius: 20px;
+                        margin: 1%;
+                        color: black;
+                        text-decoration: none;
+                        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+                        &__figure{
+                            margin: 0%;
+                            img{
+                                width: 100%;
+                                height: 180px;
+                                border-radius: 15px 15px 0px 0px;
+                                object-fit: cover;
+
+                            }
+                            &--description{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                line-height: 12px;
+                                margin: 5%;
+                                margin-top: 0%;
+                                margin-bottom: 0%;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        background-color:#353535;
+        color: white;
+        &__bloc{
+            margin-top: 5%;
+            padding: 3%;   
+            .logo-reverse{
+
+            }
+            
+            &--link{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: white;
+                line-height: 40%;
+                &:hover{
+                    text-decoration: underline;
+                }
+                &-picto{
+                    margin-right: 10px;
+                }
+            }
+
+        }
+    }
+}
