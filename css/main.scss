@@ -17,6 +17,7 @@
 body{
     font-family: RobotoR;
     margin: 0%;
+    padding: 0%;
     header{
         display: flex;
         justify-content: center;
@@ -202,5 +203,15 @@ body{
             }
 
         }
+    }
+}
+
+/*Classes récurentes*/
+.grow{
+    transform: scale(1);
+    transition: all 200ms;
+    &:hover{
+        transform: scale(1.05);
+        cursor: pointer;
     }
 }

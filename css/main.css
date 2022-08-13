@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: RobotoR;
   src: url(font/Roboto-Regular.ttf);
@@ -17,6 +18,7 @@
 body {
   font-family: RobotoR;
   margin: 0%;
+  padding: 0%;
 }
 body header {
   display: flex;
@@ -183,4 +185,14 @@ body .footer__bloc--link:hover {
 }
 body .footer__bloc--link-picto {
   margin-right: 10px;
+}
+
+/*Classes récurentes*/
+.grow {
+  transform: scale(1);
+  transition: all 200ms;
+}
+.grow:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
