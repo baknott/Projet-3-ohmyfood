@@ -15,6 +15,30 @@
   font-family: RobotoM;
   src: url(font/Roboto-Medium.ttf);
 }
+@-webkit-keyframes favorite-checked {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+    color: red;
+  }
+}
+@keyframes favorite-checked {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+    color: red;
+  }
+}
 body {
   font-family: RobotoR;
   margin: 0%;
@@ -164,6 +188,35 @@ body main .lesrestaurants .restaurant__cards .card__figure--description {
   margin: 5%;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+body main .lesrestaurants .restaurant__cards .card__figure--description .favorites {
+  display: flex;
+  align-items: center;
+}
+body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__check {
+  width: 30px;
+  height: 30px;
+  z-index: 10;
+  opacity: 0;
+}
+body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__check:checked + .favorites__heart {
+  -webkit-animation-name: favorite-checked;
+          animation-name: favorite-checked;
+  -webkit-animation-duration: 350ms;
+          animation-duration: 350ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__check:hover {
+  cursor: pointer;
+}
+body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__heart {
+  position: relative;
+  font-size: 1.5em;
+  right: 30px;
+  transform: scale(1);
 }
 body .footer {
   background-color: #353535;
