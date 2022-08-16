@@ -17,26 +17,26 @@
 }
 @-webkit-keyframes favorite-checked {
   0% {
-    transform: scaleY(0);
+    transform: scale(1);
   }
-  70% {
-    transform: scaley(0.3);
+  80% {
+    transform: scale(1.15);
   }
   100% {
-    transform: scaleY(1);
-    opacity: 1;
+    transform: scale(1);
+    color: #9356DC;
   }
 }
 @keyframes favorite-checked {
   0% {
-    transform: scaleY(0);
+    transform: scale(1);
   }
-  70% {
-    transform: scaley(0.3);
+  80% {
+    transform: scale(1.15);
   }
   100% {
-    transform: scaleY(1);
-    opacity: 1;
+    transform: scale(1);
+    color: #9356DC;
   }
 }
 body {
@@ -213,31 +213,22 @@ body main .lesrestaurants .restaurant__cards .card__figure--description .favorit
 body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__check:checked + .favorites__heart {
   -webkit-animation-name: favorite-checked;
           animation-name: favorite-checked;
-  -webkit-animation-duration: 350ms;
-          animation-duration: 350ms;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  transform-origin: bottom;
 }
 body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__check:hover {
   cursor: pointer;
 }
 body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__heart {
-  position: absolute;
-  font-size: 1.5em;
-  right: 59px;
-  transform: scale(1);
-  color: #FF79DA;
-  z-index: 5;
-  opacity: 0;
-}
-body main .lesrestaurants .restaurant__cards .card__figure--description .favorites__unchecked--heart {
   position: relative;
   font-size: 1.5em;
   right: 30px;
   transform: scale(1);
+  transform-origin: bottom;
 }
 body .footer {
   background-color: #353535;
@@ -246,6 +237,9 @@ body .footer {
 body .footer__bloc {
   margin-top: 5%;
   padding: 3%;
+}
+body .footer__bloc .logo-reverse {
+  filter: invert(100%);
 }
 body .footer__bloc--link {
   display: flex;

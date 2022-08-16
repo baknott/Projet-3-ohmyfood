@@ -15,15 +15,11 @@
     src: url(font/Roboto-Medium.ttf);
 }
 @keyframes favorite-checked{
-    0%{
-        
-        transform: scaleY(0);
-    }
-    70%{transform: scaley(0.3);}
+    0%{transform: scale(1);}
+    80%{transform: scale(1.15);}
     100%{
-        transform: scaleY(1);
-        opacity: 1;
-        
+        transform: scale(1);
+        color: #9356DC;
     }
 }
 body{
@@ -205,29 +201,20 @@ body{
                                         opacity: 0;
                                         &:checked + .favorites__heart{
                                             animation-name: favorite-checked;
-                                            animation-duration: 350ms;
+                                            animation-duration: 500ms;
                                             animation-iteration-count: 1;
                                             animation-fill-mode: forwards;
-                                            transform-origin: bottom;  
                                         }
                                         &:hover{
                                             cursor: pointer;
                                         }
                                     }
                                     &__heart{
-                                        position: absolute;
-                                        font-size: 1.5em;
-                                        right: 59px;
-                                        transform: scale(1);
-                                        color: #FF79DA;
-                                        z-index: 5;
-                                        opacity: 0;                                        
-                                    }
-                                    &__unchecked--heart{
                                         position: relative;
                                         font-size: 1.5em;
                                         right: 30px;
-                                        transform: scale(1);                                        
+                                        transform: scale(1); 
+                                        transform-origin: bottom;                                       
                                     }
                                 }
 
@@ -245,7 +232,7 @@ body{
             margin-top: 5%;
             padding: 3%;   
             .logo-reverse{
-
+                filter: invert(100%);
             }
             
             &--link{
