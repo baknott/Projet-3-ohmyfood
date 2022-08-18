@@ -14,14 +14,39 @@
     font-family: RobotoM;
     src: url(font/Roboto-Medium.ttf);
 }
+@font-face {
+    font-family: Shrikhand;
+    src: url(font/Shrikhand-Regular.ttf);
+}
 @keyframes favorite-checked{
-    0%{transform: scale(1);}
-    80%{transform: scale(1.15);}
+    0%{opacity: 0;}
     100%{
-        transform: scale(1);
+        opacity: 1;
         color: #9356DC;
     }
 }
+@keyframes new-patch{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes checking {
+    from{
+        right: -90px;
+    }
+    to{
+        right: 10px;
+    }
+}
+@keyframes price-moving{
+    from{
+        margin-right: 0%;
+    }
+    to{
+        margin-right: 25%;
+    }
+}
+
 body{
     font-family: RobotoR;
     margin: 0%;
@@ -30,12 +55,27 @@ body{
         display: flex;
         justify-content: center;
         width: 100%;
+        .returning-index-arrow{
+            position: absolute;
+            left: 2%;
+            top: 4%;
+        }
+        
+        .fa-arrow-left{
+            color: black;
+            margin: 0%;
+            padding: 0%;
+            font-size: 1.8em;
+            &:hover{
+                color: #99E2D0;
+            }
+        }
         .logo{
             margin: 2%;
             width: 20%;
         }
     }
-    main{
+    .main-index{
         .leformulaire{    
             width: 100%;
             .form{
@@ -181,6 +221,18 @@ body{
                                 object-fit: cover;
 
                             }
+                            .nouveau{
+                                background-color: #99E2D0;
+                                color: #1c7a63;
+                                position: absolute;
+                                font-family: RobotoB;
+                                padding: 10px;
+                                margin-left: 215px;
+                                margin-top: -170px;
+                                animation-name: new-patch;
+                                animation-duration: 2000ms;
+                                animation-iteration-count: infinite;
+                            }
                             &--description{
                                 display: flex;
                                 justify-content: space-between;
@@ -195,15 +247,21 @@ body{
                                     align-items: center;
                                     
                                     &__check{
+                                        position: relative;
+                                        right: -20px;
                                         width: 30px;
                                         height: 30px;
                                         z-index: 10;
                                         opacity: 0;
-                                        &:checked + .favorites__heart{
+                                        &:hover + .favorites__heart{
                                             animation-name: favorite-checked;
                                             animation-duration: 500ms;
                                             animation-iteration-count: 1;
                                             animation-fill-mode: forwards;
+                                        }
+                                        &:checked + .favorites__heart{
+                                            opacity: 1;
+                                            color: #9356DC;
                                         }
                                         &:hover{
                                             cursor: pointer;
@@ -211,10 +269,20 @@ body{
                                     }
                                     &__heart{
                                         position: relative;
+                                        color: transparent;
+                                        opacity: 0;
                                         font-size: 1.5em;
-                                        right: 30px;
+                                        right: 10px;
                                         transform: scale(1); 
-                                        transform-origin: bottom;                                       
+                                        transform-origin: bottom;    
+                                        z-index: 5;                                   
+                                    }
+                                    .empty__heart{
+                                        position: relative;
+                                        font-size: 1.5em;
+                                        right: 34px;
+                                        z-index: 1;
+
                                     }
                                 }
 
@@ -225,6 +293,168 @@ body{
             }
         }
     }
+
+    .main-restaurants{
+        .unrestaurant{
+            background-color: #ece8e8;
+            .banner{
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+            .menu{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                &__title{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h1{
+                        font-family: Shrikhand;
+                        font-size: 2em;
+                    }
+                    .favorites{
+                        display: flex;
+                        align-items: center;
+                        
+                        &__check{
+                            position: relative;
+                            right: -20px;
+                            width: 30px;
+                            height: 30px;
+                            z-index: 10;
+                            opacity: 0;
+                            &:hover + .favorites__heart{
+                                animation-name: favorite-checked;
+                                animation-duration: 500ms;
+                                animation-iteration-count: 1;
+                                animation-fill-mode: forwards;
+                            }
+                            &:checked + .favorites__heart{
+                                opacity: 1;
+                                color: #9356DC;
+                            }
+                            &:hover{
+                                cursor: pointer;
+                            }
+                        }
+                        &__heart{
+                            position: relative;
+                            color: transparent;
+                            opacity: 0;
+                            font-size: 1.5em;
+                            right: 10px;
+                            transform: scale(1); 
+                            transform-origin: bottom;    
+                            z-index: 5;                                   
+                        }
+                        .empty__heart{
+                            position: relative;
+                            font-size: 1.5em;
+                            right: 34px;
+                            z-index: 1;
+
+                        }
+                    }
+                }
+                &__service{
+                    display: flex;
+                    justify-content: space-around;
+                    .unService{
+                        width: 30%;
+                        &__separateur{
+                            border-bottom: 3px solid #99E2D0;
+                            width: 12%;
+                        }
+                        &__plat{
+                            display: flex;
+                            position: relative;
+                            justify-content: space-between;
+                            align-items: center;
+                            background-color: white;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            border-radius: 20px;
+                            margin-bottom: 5%;
+                            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+                            width: 95%;
+                            overflow: hidden;
+                            &:hover{
+                                cursor: pointer;
+                            }
+                            &:hover .unService__plat--selected{
+                                animation-name: checking;
+                                animation-duration: 1000ms;
+                                animation-fill-mode: forwards;
+                            }
+                            &:hover .unService__plat--price{
+                                animation-name: price-moving;
+                                animation-duration: 1000ms;
+                                animation-fill-mode: forwards;
+                            }
+                            &:hover .fa-circle-check{
+                                transform: rotate(-720deg);
+                            }
+                            &--txt{
+                                line-height: 10px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                
+                            }
+                            &--price{
+                                font-family: RobotoB;
+                            }
+                            &--selected{
+                                position: absolute;
+                                right:-90px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100px;
+                                width: 100px;
+                                background-color: #99E2D0;
+                                margin-right: -15px;
+                                .fa-circle-check{
+                                    font-size: 1.5em;
+                                    color: white;
+                                    transition: 1s;
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+                &__command{
+                    align-self: center;
+                    border: none;
+                    border-radius: 100px;
+                    background: rgb(147,86,220);
+                    background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+                    color: white;
+                    font-family: RobotoM;
+                    font-size: 1.2em;
+                    margin: 50px;
+                    margin-top: 30px;
+                    padding: 0.5em;
+                    width: 250px;
+                    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+                    &:hover{
+                        opacity: 0.80;
+                        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+        }
+
+    }
+
+
     .footer{
         background-color:#353535;
         color: white;
@@ -255,3 +485,13 @@ body{
 
 /*Classes récurentes*/
 
+@media all and (max-width: 768px) {
+    
+    .menu{
+        &__services{
+            flex-direction: column;
+        }
+    }
+    
+    
+}
