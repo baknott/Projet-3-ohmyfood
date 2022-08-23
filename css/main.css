@@ -765,8 +765,8 @@ body a {
     width: 48%;
     margin: 0%;
   }
-  .unService--plat {
-    width: 100%;
+  .unService__plat {
+    width: 93%;
   }
 }
 /*--------------------------------
@@ -812,7 +812,6 @@ body a {
     position: relative;
     margin-top: -50px;
     margin-bottom: -5%;
-    margin-right: 5%;
     z-index: 40;
     border-radius: 20px 20px 0px 0px;
   }
@@ -823,9 +822,8 @@ body a {
   }
   .unService {
     width: 95%;
-    margin: 0%;
   }
-  .unService--plat {
-    width: 100%;
+  .unService__plat {
+    width: 93.5%;
   }
 }/*# sourceMappingURL=main.css.map */

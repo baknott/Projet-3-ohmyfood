@@ -651,8 +651,8 @@ body{
     .unService{
         width: 48%;
         margin: 0%;
-        &--plat{
-            width: 100%;
+        &__plat{
+            width: 93%;
         }
     }
 }
@@ -707,21 +707,18 @@ body{
         position: relative;
         margin-top: -50px;
         margin-bottom: -5%;
-        margin-right: 5%;
         z-index: 40;
         border-radius: 20px 20px 0px 0px;
     }
     .menu__service{
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        
+        width: 100%;        
     }
     .unService{
         width: 95%;
-        margin: 0%;
-        &--plat{
-            width: 100%;
+        &__plat{
+            width: 93.5%;
         }
     }
     
