@@ -1,3 +1,6 @@
+/*---------------------------*/
+/*--------FONT FACE----------*/
+/*---------------------------*/
 @font-face {
   font-family: RobotoR;
   src: url(font/Roboto-Regular.ttf);
@@ -18,102 +21,12 @@
   font-family: Shrikhand;
   src: url(font/Shrikhand-Regular.ttf);
 }
-@-webkit-keyframes favorite-checked {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    color: #9356DC;
-  }
-}
-@keyframes favorite-checked {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    color: #9356DC;
-  }
-}
-@-webkit-keyframes new-patch {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes new-patch {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes checking {
-  from {
-    right: -90px;
-  }
-  to {
-    right: 10px;
-  }
-}
-@keyframes checking {
-  from {
-    right: -90px;
-  }
-  to {
-    right: 10px;
-  }
-}
-@-webkit-keyframes price-moving {
-  from {
-    margin-right: 0%;
-  }
-  to {
-    margin-right: 25%;
-  }
-}
-@keyframes price-moving {
-  from {
-    margin-right: 0%;
-  }
-  to {
-    margin-right: 25%;
-  }
-}
-@-webkit-keyframes service-spawn {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes service-spawn {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-/*----------------------------------*/
-/*-------------------------------*/
-/*----PARAMETRES--ANIMATION------*/
-/*-------------------------------*/
+/*-------------------*/
+/*----VARIABLES------*/
+/*-------------------*/
+/*----------------------------*/
+/*----ANIMATIONS KEYFRAMES----*/
+/*----------------------------*/
 @-webkit-keyframes loading-logo {
   0% {
     opacity: 1;
@@ -214,6 +127,48 @@
   100% {
     opacity: 0;
     visibility: hidden;
+  }
+}
+@-webkit-keyframes new-patch {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes new-patch {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes service-spawn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes service-spawn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
 /*---------------------------------*/
@@ -401,6 +356,13 @@ body a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F2F2F2;
+  padding-bottom: 5%;
+  margin-bottom: -5%;
+  margin-top: 5%;
+}
+.main-index .restaurant__title {
+  font-size: 2em;
 }
 .main-index .restaurant__cards {
   display: flex;
@@ -743,6 +705,17 @@ body a {
   .main-index .functioning__steps .functioning__step--content {
     width: 100%;
   }
+  .main-index .restaurant {
+    padding-bottom: 10%;
+    padding-top: 2%;
+    margin-bottom: -5%;
+    margin-top: 5%;
+  }
+  .main-index .restaurant__title {
+    align-self: flex-start;
+    margin-left: 2%;
+    font-size: 2em;
+  }
   .main-index .restaurant__cards {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -796,6 +769,12 @@ body a {
   }
   .main-index .functioning__steps .functioning__step--content {
     width: 100%;
+  }
+  .main-index .restaurant {
+    padding-bottom: 10%;
+    padding-top: 2%;
+    margin-bottom: -5%;
+    margin-top: 5%;
   }
   .main-index .restaurant__title {
     align-self: flex-start;
