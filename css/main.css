@@ -401,19 +401,19 @@ body a {
      object-fit: cover;
 }
 .main-index .restaurant__cards .card__figure--description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   line-height: 12px;
   margin: 5%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
-.main-index .restaurant__cards .card__figure--description .favorites {
+.main-index .restaurant__cards .card .favorites {
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 9%;
+  right: 1%;
 }
-.main-index .restaurant__cards .card__figure--description .favorites__check {
+.main-index .restaurant__cards .card .favorites__check {
   position: relative;
   right: -20px;
   width: 30px;
@@ -421,18 +421,18 @@ body a {
   z-index: 10;
   opacity: 0;
 }
-.main-index .restaurant__cards .card__figure--description .favorites__check:hover + .favorites__heart {
+.main-index .restaurant__cards .card .favorites__check:hover + .favorites__heart {
   opacity: 1;
   color: #9356DC;
 }
-.main-index .restaurant__cards .card__figure--description .favorites__check:checked + .favorites__heart {
+.main-index .restaurant__cards .card .favorites__check:checked + .favorites__heart {
   opacity: 1;
   color: #9356DC;
 }
-.main-index .restaurant__cards .card__figure--description .favorites__check:hover {
+.main-index .restaurant__cards .card .favorites__check:hover {
   cursor: pointer;
 }
-.main-index .restaurant__cards .card__figure--description .favorites__heart {
+.main-index .restaurant__cards .card .favorites__heart {
   position: relative;
   color: transparent;
   opacity: 0;
@@ -443,7 +443,7 @@ body a {
   transition: all 500ms;
   z-index: 5;
 }
-.main-index .restaurant__cards .card__figure--description .favorites .empty__heart {
+.main-index .restaurant__cards .card .favorites .empty__heart {
   position: relative;
   font-size: 1.5em;
   right: 34px;
