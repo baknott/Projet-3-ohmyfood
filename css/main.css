@@ -27,84 +27,6 @@
 /*----------------------------*/
 /*----ANIMATIONS KEYFRAMES----*/
 /*----------------------------*/
-@-webkit-keyframes loading-logo {
-  0% {
-    opacity: 1;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  10% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  20% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  30% {
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  40% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  50% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  60% {
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  70% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  80% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  90% {
-    opacity: 1;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  99% {
-    opacity: 0;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-    visibility: hidden;
-  }
-}
-@keyframes loading-logo {
-  0% {
-    opacity: 1;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  10% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  20% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  30% {
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  40% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  50% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  60% {
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  70% {
-    filter: invert(69%) sepia(39%) saturate(2217%) hue-rotate(284deg) brightness(104%) contrast(101%);
-  }
-  80% {
-    filter: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) brightness(93%) contrast(90%);
-  }
-  90% {
-    opacity: 1;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-  }
-  99% {
-    opacity: 0;
-    filter: invert(43%) sepia(66%) saturate(705%) hue-rotate(226deg) brightness(86%) contrast(102%);
-    visibility: hidden;
-  }
-}
 @-webkit-keyframes white-clip {
   0% {
     opacity: 1;
@@ -171,15 +93,1707 @@
     opacity: 1;
   }
 }
-/*---------------------------------*/
-body {
-  font-family: RobotoR;
-  margin: 0px auto;
+@-webkit-keyframes grow0 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(360deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
 }
-body a {
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
+@keyframes grow0 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(360deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@-webkit-keyframes grow30 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(390deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@keyframes grow30 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(390deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@-webkit-keyframes grow60 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(420deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@keyframes grow60 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(420deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@-webkit-keyframes grow90 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(450deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@keyframes grow90 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(450deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@-webkit-keyframes grow120 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(480deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@keyframes grow120 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(480deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@-webkit-keyframes grow150 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(510deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+@keyframes grow150 {
+  0% {
+    height: 200px;
+  }
+  80% {
+    transform: rotate(510deg);
+    height: 200px;
+  }
+  100% {
+    height: 20px;
+  }
+}
+/*----------------------------*/
+/*----ANIMATIONS CLASSES------*/
+/*----------------------------*/
+.rotate {
+  position: relative;
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.container {
+  margin: 0%;
+  padding: 0%;
+  position: absolute;
+  width: 20px;
+  height: 200px;
+  display: flex;
+}
+
+.orientation_0 {
+  transform: rotate(0deg);
+  -webkit-animation-name: grow0;
+          animation-name: grow0;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_1 {
+  transform: rotate(1deg);
+  -webkit-animation-name: grow1;
+          animation-name: grow1;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_2 {
+  transform: rotate(2deg);
+  -webkit-animation-name: grow2;
+          animation-name: grow2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_3 {
+  transform: rotate(3deg);
+  -webkit-animation-name: grow3;
+          animation-name: grow3;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_4 {
+  transform: rotate(4deg);
+  -webkit-animation-name: grow4;
+          animation-name: grow4;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_5 {
+  transform: rotate(5deg);
+  -webkit-animation-name: grow5;
+          animation-name: grow5;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_6 {
+  transform: rotate(6deg);
+  -webkit-animation-name: grow6;
+          animation-name: grow6;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_7 {
+  transform: rotate(7deg);
+  -webkit-animation-name: grow7;
+          animation-name: grow7;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_8 {
+  transform: rotate(8deg);
+  -webkit-animation-name: grow8;
+          animation-name: grow8;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_9 {
+  transform: rotate(9deg);
+  -webkit-animation-name: grow9;
+          animation-name: grow9;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_10 {
+  transform: rotate(10deg);
+  -webkit-animation-name: grow10;
+          animation-name: grow10;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_11 {
+  transform: rotate(11deg);
+  -webkit-animation-name: grow11;
+          animation-name: grow11;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_12 {
+  transform: rotate(12deg);
+  -webkit-animation-name: grow12;
+          animation-name: grow12;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_13 {
+  transform: rotate(13deg);
+  -webkit-animation-name: grow13;
+          animation-name: grow13;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_14 {
+  transform: rotate(14deg);
+  -webkit-animation-name: grow14;
+          animation-name: grow14;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_15 {
+  transform: rotate(15deg);
+  -webkit-animation-name: grow15;
+          animation-name: grow15;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_16 {
+  transform: rotate(16deg);
+  -webkit-animation-name: grow16;
+          animation-name: grow16;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_17 {
+  transform: rotate(17deg);
+  -webkit-animation-name: grow17;
+          animation-name: grow17;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_18 {
+  transform: rotate(18deg);
+  -webkit-animation-name: grow18;
+          animation-name: grow18;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_19 {
+  transform: rotate(19deg);
+  -webkit-animation-name: grow19;
+          animation-name: grow19;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_20 {
+  transform: rotate(20deg);
+  -webkit-animation-name: grow20;
+          animation-name: grow20;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_21 {
+  transform: rotate(21deg);
+  -webkit-animation-name: grow21;
+          animation-name: grow21;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_22 {
+  transform: rotate(22deg);
+  -webkit-animation-name: grow22;
+          animation-name: grow22;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_23 {
+  transform: rotate(23deg);
+  -webkit-animation-name: grow23;
+          animation-name: grow23;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_24 {
+  transform: rotate(24deg);
+  -webkit-animation-name: grow24;
+          animation-name: grow24;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_25 {
+  transform: rotate(25deg);
+  -webkit-animation-name: grow25;
+          animation-name: grow25;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_26 {
+  transform: rotate(26deg);
+  -webkit-animation-name: grow26;
+          animation-name: grow26;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_27 {
+  transform: rotate(27deg);
+  -webkit-animation-name: grow27;
+          animation-name: grow27;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_28 {
+  transform: rotate(28deg);
+  -webkit-animation-name: grow28;
+          animation-name: grow28;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_29 {
+  transform: rotate(29deg);
+  -webkit-animation-name: grow29;
+          animation-name: grow29;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_30 {
+  transform: rotate(30deg);
+  -webkit-animation-name: grow30;
+          animation-name: grow30;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_31 {
+  transform: rotate(31deg);
+  -webkit-animation-name: grow31;
+          animation-name: grow31;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_32 {
+  transform: rotate(32deg);
+  -webkit-animation-name: grow32;
+          animation-name: grow32;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_33 {
+  transform: rotate(33deg);
+  -webkit-animation-name: grow33;
+          animation-name: grow33;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_34 {
+  transform: rotate(34deg);
+  -webkit-animation-name: grow34;
+          animation-name: grow34;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_35 {
+  transform: rotate(35deg);
+  -webkit-animation-name: grow35;
+          animation-name: grow35;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_36 {
+  transform: rotate(36deg);
+  -webkit-animation-name: grow36;
+          animation-name: grow36;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_37 {
+  transform: rotate(37deg);
+  -webkit-animation-name: grow37;
+          animation-name: grow37;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_38 {
+  transform: rotate(38deg);
+  -webkit-animation-name: grow38;
+          animation-name: grow38;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_39 {
+  transform: rotate(39deg);
+  -webkit-animation-name: grow39;
+          animation-name: grow39;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_40 {
+  transform: rotate(40deg);
+  -webkit-animation-name: grow40;
+          animation-name: grow40;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_41 {
+  transform: rotate(41deg);
+  -webkit-animation-name: grow41;
+          animation-name: grow41;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_42 {
+  transform: rotate(42deg);
+  -webkit-animation-name: grow42;
+          animation-name: grow42;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_43 {
+  transform: rotate(43deg);
+  -webkit-animation-name: grow43;
+          animation-name: grow43;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_44 {
+  transform: rotate(44deg);
+  -webkit-animation-name: grow44;
+          animation-name: grow44;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_45 {
+  transform: rotate(45deg);
+  -webkit-animation-name: grow45;
+          animation-name: grow45;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_46 {
+  transform: rotate(46deg);
+  -webkit-animation-name: grow46;
+          animation-name: grow46;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_47 {
+  transform: rotate(47deg);
+  -webkit-animation-name: grow47;
+          animation-name: grow47;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_48 {
+  transform: rotate(48deg);
+  -webkit-animation-name: grow48;
+          animation-name: grow48;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_49 {
+  transform: rotate(49deg);
+  -webkit-animation-name: grow49;
+          animation-name: grow49;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_50 {
+  transform: rotate(50deg);
+  -webkit-animation-name: grow50;
+          animation-name: grow50;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_51 {
+  transform: rotate(51deg);
+  -webkit-animation-name: grow51;
+          animation-name: grow51;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_52 {
+  transform: rotate(52deg);
+  -webkit-animation-name: grow52;
+          animation-name: grow52;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_53 {
+  transform: rotate(53deg);
+  -webkit-animation-name: grow53;
+          animation-name: grow53;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_54 {
+  transform: rotate(54deg);
+  -webkit-animation-name: grow54;
+          animation-name: grow54;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_55 {
+  transform: rotate(55deg);
+  -webkit-animation-name: grow55;
+          animation-name: grow55;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_56 {
+  transform: rotate(56deg);
+  -webkit-animation-name: grow56;
+          animation-name: grow56;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_57 {
+  transform: rotate(57deg);
+  -webkit-animation-name: grow57;
+          animation-name: grow57;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_58 {
+  transform: rotate(58deg);
+  -webkit-animation-name: grow58;
+          animation-name: grow58;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_59 {
+  transform: rotate(59deg);
+  -webkit-animation-name: grow59;
+          animation-name: grow59;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_60 {
+  transform: rotate(60deg);
+  -webkit-animation-name: grow60;
+          animation-name: grow60;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_61 {
+  transform: rotate(61deg);
+  -webkit-animation-name: grow61;
+          animation-name: grow61;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_62 {
+  transform: rotate(62deg);
+  -webkit-animation-name: grow62;
+          animation-name: grow62;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_63 {
+  transform: rotate(63deg);
+  -webkit-animation-name: grow63;
+          animation-name: grow63;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_64 {
+  transform: rotate(64deg);
+  -webkit-animation-name: grow64;
+          animation-name: grow64;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_65 {
+  transform: rotate(65deg);
+  -webkit-animation-name: grow65;
+          animation-name: grow65;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_66 {
+  transform: rotate(66deg);
+  -webkit-animation-name: grow66;
+          animation-name: grow66;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_67 {
+  transform: rotate(67deg);
+  -webkit-animation-name: grow67;
+          animation-name: grow67;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_68 {
+  transform: rotate(68deg);
+  -webkit-animation-name: grow68;
+          animation-name: grow68;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_69 {
+  transform: rotate(69deg);
+  -webkit-animation-name: grow69;
+          animation-name: grow69;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_70 {
+  transform: rotate(70deg);
+  -webkit-animation-name: grow70;
+          animation-name: grow70;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_71 {
+  transform: rotate(71deg);
+  -webkit-animation-name: grow71;
+          animation-name: grow71;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_72 {
+  transform: rotate(72deg);
+  -webkit-animation-name: grow72;
+          animation-name: grow72;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_73 {
+  transform: rotate(73deg);
+  -webkit-animation-name: grow73;
+          animation-name: grow73;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_74 {
+  transform: rotate(74deg);
+  -webkit-animation-name: grow74;
+          animation-name: grow74;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_75 {
+  transform: rotate(75deg);
+  -webkit-animation-name: grow75;
+          animation-name: grow75;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_76 {
+  transform: rotate(76deg);
+  -webkit-animation-name: grow76;
+          animation-name: grow76;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_77 {
+  transform: rotate(77deg);
+  -webkit-animation-name: grow77;
+          animation-name: grow77;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_78 {
+  transform: rotate(78deg);
+  -webkit-animation-name: grow78;
+          animation-name: grow78;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_79 {
+  transform: rotate(79deg);
+  -webkit-animation-name: grow79;
+          animation-name: grow79;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_80 {
+  transform: rotate(80deg);
+  -webkit-animation-name: grow80;
+          animation-name: grow80;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_81 {
+  transform: rotate(81deg);
+  -webkit-animation-name: grow81;
+          animation-name: grow81;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_82 {
+  transform: rotate(82deg);
+  -webkit-animation-name: grow82;
+          animation-name: grow82;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_83 {
+  transform: rotate(83deg);
+  -webkit-animation-name: grow83;
+          animation-name: grow83;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_84 {
+  transform: rotate(84deg);
+  -webkit-animation-name: grow84;
+          animation-name: grow84;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_85 {
+  transform: rotate(85deg);
+  -webkit-animation-name: grow85;
+          animation-name: grow85;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_86 {
+  transform: rotate(86deg);
+  -webkit-animation-name: grow86;
+          animation-name: grow86;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_87 {
+  transform: rotate(87deg);
+  -webkit-animation-name: grow87;
+          animation-name: grow87;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_88 {
+  transform: rotate(88deg);
+  -webkit-animation-name: grow88;
+          animation-name: grow88;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_89 {
+  transform: rotate(89deg);
+  -webkit-animation-name: grow89;
+          animation-name: grow89;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_90 {
+  transform: rotate(90deg);
+  -webkit-animation-name: grow90;
+          animation-name: grow90;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_91 {
+  transform: rotate(91deg);
+  -webkit-animation-name: grow91;
+          animation-name: grow91;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_92 {
+  transform: rotate(92deg);
+  -webkit-animation-name: grow92;
+          animation-name: grow92;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_93 {
+  transform: rotate(93deg);
+  -webkit-animation-name: grow93;
+          animation-name: grow93;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_94 {
+  transform: rotate(94deg);
+  -webkit-animation-name: grow94;
+          animation-name: grow94;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_95 {
+  transform: rotate(95deg);
+  -webkit-animation-name: grow95;
+          animation-name: grow95;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_96 {
+  transform: rotate(96deg);
+  -webkit-animation-name: grow96;
+          animation-name: grow96;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_97 {
+  transform: rotate(97deg);
+  -webkit-animation-name: grow97;
+          animation-name: grow97;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_98 {
+  transform: rotate(98deg);
+  -webkit-animation-name: grow98;
+          animation-name: grow98;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_99 {
+  transform: rotate(99deg);
+  -webkit-animation-name: grow99;
+          animation-name: grow99;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_100 {
+  transform: rotate(100deg);
+  -webkit-animation-name: grow100;
+          animation-name: grow100;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_101 {
+  transform: rotate(101deg);
+  -webkit-animation-name: grow101;
+          animation-name: grow101;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_102 {
+  transform: rotate(102deg);
+  -webkit-animation-name: grow102;
+          animation-name: grow102;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_103 {
+  transform: rotate(103deg);
+  -webkit-animation-name: grow103;
+          animation-name: grow103;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_104 {
+  transform: rotate(104deg);
+  -webkit-animation-name: grow104;
+          animation-name: grow104;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_105 {
+  transform: rotate(105deg);
+  -webkit-animation-name: grow105;
+          animation-name: grow105;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_106 {
+  transform: rotate(106deg);
+  -webkit-animation-name: grow106;
+          animation-name: grow106;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_107 {
+  transform: rotate(107deg);
+  -webkit-animation-name: grow107;
+          animation-name: grow107;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_108 {
+  transform: rotate(108deg);
+  -webkit-animation-name: grow108;
+          animation-name: grow108;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_109 {
+  transform: rotate(109deg);
+  -webkit-animation-name: grow109;
+          animation-name: grow109;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_110 {
+  transform: rotate(110deg);
+  -webkit-animation-name: grow110;
+          animation-name: grow110;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_111 {
+  transform: rotate(111deg);
+  -webkit-animation-name: grow111;
+          animation-name: grow111;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_112 {
+  transform: rotate(112deg);
+  -webkit-animation-name: grow112;
+          animation-name: grow112;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_113 {
+  transform: rotate(113deg);
+  -webkit-animation-name: grow113;
+          animation-name: grow113;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_114 {
+  transform: rotate(114deg);
+  -webkit-animation-name: grow114;
+          animation-name: grow114;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_115 {
+  transform: rotate(115deg);
+  -webkit-animation-name: grow115;
+          animation-name: grow115;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_116 {
+  transform: rotate(116deg);
+  -webkit-animation-name: grow116;
+          animation-name: grow116;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_117 {
+  transform: rotate(117deg);
+  -webkit-animation-name: grow117;
+          animation-name: grow117;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_118 {
+  transform: rotate(118deg);
+  -webkit-animation-name: grow118;
+          animation-name: grow118;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_119 {
+  transform: rotate(119deg);
+  -webkit-animation-name: grow119;
+          animation-name: grow119;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_120 {
+  transform: rotate(120deg);
+  -webkit-animation-name: grow120;
+          animation-name: grow120;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_121 {
+  transform: rotate(121deg);
+  -webkit-animation-name: grow121;
+          animation-name: grow121;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_122 {
+  transform: rotate(122deg);
+  -webkit-animation-name: grow122;
+          animation-name: grow122;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_123 {
+  transform: rotate(123deg);
+  -webkit-animation-name: grow123;
+          animation-name: grow123;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_124 {
+  transform: rotate(124deg);
+  -webkit-animation-name: grow124;
+          animation-name: grow124;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_125 {
+  transform: rotate(125deg);
+  -webkit-animation-name: grow125;
+          animation-name: grow125;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_126 {
+  transform: rotate(126deg);
+  -webkit-animation-name: grow126;
+          animation-name: grow126;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_127 {
+  transform: rotate(127deg);
+  -webkit-animation-name: grow127;
+          animation-name: grow127;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_128 {
+  transform: rotate(128deg);
+  -webkit-animation-name: grow128;
+          animation-name: grow128;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_129 {
+  transform: rotate(129deg);
+  -webkit-animation-name: grow129;
+          animation-name: grow129;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_130 {
+  transform: rotate(130deg);
+  -webkit-animation-name: grow130;
+          animation-name: grow130;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_131 {
+  transform: rotate(131deg);
+  -webkit-animation-name: grow131;
+          animation-name: grow131;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_132 {
+  transform: rotate(132deg);
+  -webkit-animation-name: grow132;
+          animation-name: grow132;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_133 {
+  transform: rotate(133deg);
+  -webkit-animation-name: grow133;
+          animation-name: grow133;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_134 {
+  transform: rotate(134deg);
+  -webkit-animation-name: grow134;
+          animation-name: grow134;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_135 {
+  transform: rotate(135deg);
+  -webkit-animation-name: grow135;
+          animation-name: grow135;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_136 {
+  transform: rotate(136deg);
+  -webkit-animation-name: grow136;
+          animation-name: grow136;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_137 {
+  transform: rotate(137deg);
+  -webkit-animation-name: grow137;
+          animation-name: grow137;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_138 {
+  transform: rotate(138deg);
+  -webkit-animation-name: grow138;
+          animation-name: grow138;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_139 {
+  transform: rotate(139deg);
+  -webkit-animation-name: grow139;
+          animation-name: grow139;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_140 {
+  transform: rotate(140deg);
+  -webkit-animation-name: grow140;
+          animation-name: grow140;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_141 {
+  transform: rotate(141deg);
+  -webkit-animation-name: grow141;
+          animation-name: grow141;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_142 {
+  transform: rotate(142deg);
+  -webkit-animation-name: grow142;
+          animation-name: grow142;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_143 {
+  transform: rotate(143deg);
+  -webkit-animation-name: grow143;
+          animation-name: grow143;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_144 {
+  transform: rotate(144deg);
+  -webkit-animation-name: grow144;
+          animation-name: grow144;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_145 {
+  transform: rotate(145deg);
+  -webkit-animation-name: grow145;
+          animation-name: grow145;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_146 {
+  transform: rotate(146deg);
+  -webkit-animation-name: grow146;
+          animation-name: grow146;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_147 {
+  transform: rotate(147deg);
+  -webkit-animation-name: grow147;
+          animation-name: grow147;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_148 {
+  transform: rotate(148deg);
+  -webkit-animation-name: grow148;
+          animation-name: grow148;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_149 {
+  transform: rotate(149deg);
+  -webkit-animation-name: grow149;
+          animation-name: grow149;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.orientation_150 {
+  transform: rotate(150deg);
+  -webkit-animation-name: grow150;
+          animation-name: grow150;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.sphere {
+  border-radius: 50%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.sphere-top {
+  align-self: flex-start;
+}
+
+.sphere-bottom {
+  align-self: flex-end;
+}
+
+.colored-violet {
+  background-color: #9356DC;
+}
+
+.colored-green {
+  background-color: #99E2D0;
+}
+
+.colored-pink {
+  background-color: #FF79DA;
 }
 
 .loading-screen {
@@ -196,20 +1810,21 @@ body a {
   -webkit-animation: white-clip 3s linear 0ms 1 normal forwards;
           animation: white-clip 3s linear 0ms 1 normal forwards;
 }
-.loading-screen img {
-  position: absolute;
-  font-size: 3em;
-  opacity: 0;
-  -webkit-animation-name: loading-logo;
-          animation-name: loading-logo;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+
+/*----------------------------*/
+/*----CLASSES COMMUNES--------*/
+/*----------------------------*/
+body {
+  font-family: RobotoR;
+  margin: 0px auto;
+}
+body a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
+/*-----HEADER-----*/
 .header {
   position: fixed;
   top: 0;
@@ -238,6 +1853,36 @@ body a {
   padding: 15px 0px 15px 0px;
 }
 
+/*-----PIED DE PAGE---------*/
+.footer {
+  background-color: #353535;
+  color: white;
+  width: 100%;
+}
+.footer__bloc {
+  margin-top: 5%;
+  padding: 3%;
+}
+.footer__bloc .logo-reverse {
+  filter: invert(100%);
+}
+.footer__bloc--link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  line-height: 40%;
+}
+.footer__bloc--link:hover {
+  text-decoration: underline;
+}
+.footer__bloc--link-picto {
+  margin-right: 10px;
+}
+
+/*----------------------------*/
+/*------CLASSES INDEX--------*/
+/*----------------------------*/
 .main-index {
   margin-top: 66px;
   margin-right: -2px;
@@ -466,6 +2111,9 @@ body a {
           animation-iteration-count: infinite;
 }
 
+/*----------------------------*/
+/*------CLASSES MENUS--------*/
+/*----------------------------*/
 .main-restaurants {
   margin-bottom: -5%;
   padding-bottom: 5%;
@@ -561,7 +2209,6 @@ body a {
   cursor: pointer;
 }
 
-/*-----PLATS DES MENUS---------*/
 .unService {
   width: 30%;
 }
@@ -667,33 +2314,6 @@ body a {
 .unService .delay_9 {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
-}
-
-/*-----PIED DE PAGE---------*/
-.footer {
-  background-color: #353535;
-  color: white;
-  width: 100%;
-}
-.footer__bloc {
-  margin-top: 5%;
-  padding: 3%;
-}
-.footer__bloc .logo-reverse {
-  filter: invert(100%);
-}
-.footer__bloc--link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-  line-height: 40%;
-}
-.footer__bloc--link:hover {
-  text-decoration: underline;
-}
-.footer__bloc--link-picto {
-  margin-right: 10px;
 }
 
 /*--------------------------------

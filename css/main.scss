@@ -34,45 +34,6 @@ $filter-tertiary: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) bright
 /*----------------------------*/
 /*----ANIMATIONS KEYFRAMES----*/
 /*----------------------------*/
-@keyframes loading-logo {
-    0%{
-        opacity: 1;
-        filter: $filter-primary;
-    }
-    10%{
-        filter: $filter-secondary;
-    }
-    20%{
-        filter: $filter-tertiary;
-    }
-    30%{
-        filter: $filter-primary;
-    }
-    40%{
-        filter: $filter-secondary;
-    }
-    50%{
-        filter: $filter-tertiary;
-    }
-    60%{
-        filter: $filter-primary;
-    }
-    70%{
-        filter: $filter-secondary;
-    }
-    80%{
-        filter: $filter-tertiary;
-    }
-    90%{
-        opacity: 1;
-        filter: $filter-primary;
-    }
-    99%{
-        opacity: 0;
-        filter: $filter-primary;
-        visibility: hidden;;
-    }
-}
 @keyframes white-clip {
     0%{opacity: 1;}
     90%{opacity: 1;}
@@ -95,15 +56,129 @@ $filter-tertiary: invert(96%) sepia(6%) saturate(2018%) hue-rotate(95deg) bright
         opacity: 1;
     }
 }
-/*---------------------------------*/
-body{
-    font-family: RobotoR;
-    margin: 0px auto;
-    a{
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
+@keyframes grow0 {
+    0%{
+        height: 200px;
     }
+    80%{
+        transform: rotate(360deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+@keyframes grow30 {
+    0%{
+        height: 200px;
+    }
+    80%{
+        transform: rotate(390deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+@keyframes grow60 {
+    0%{
+        height: 200px;
+    }
+    80%{
+        transform: rotate(420deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+@keyframes grow90 {
+    0%{
+        height: 200px;
+    }
+    80%{
+        transform: rotate(450deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+@keyframes grow120 {
+    0%{
+        height: 200px;
+    }
+    80%{
+        transform: rotate(480deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+@keyframes grow150 {
+    0%{
+        height: 200px;
+    }
+    80%{
+        transform: rotate(510deg);
+        height: 200px;
+    }
+    100%{
+        height: 20px;
+        
+    }
+}
+/*----------------------------*/
+/*----ANIMATIONS CLASSES------*/
+/*----------------------------*/
+.rotate{
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.container{
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    width: 20px;
+    height: 200px;
+    display: flex;
+}
+@for $i from 0 to 151 {
+    .orientation_#{$i} {
+        transform: rotate($i+deg);
+        animation-name: grow+$i;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+}
+.sphere{
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.sphere-top{
+    align-self: flex-start;
+}
+.sphere-bottom{
+    align-self: flex-end;
+}
+.colored-violet{
+    background-color: #9356DC;
+}
+.colored-green{
+    background-color: #99E2D0;
+}
+.colored-pink{
+    background-color: #FF79DA;
 }
 .loading-screen{
     position: fixed;
@@ -117,16 +192,20 @@ body{
     justify-content: center;
     align-items: center;
     animation: white-clip 3s linear 0ms 1 normal forwards;
-    img{
-        position: absolute;
-        font-size: 3em;
-        opacity: 0;
-        animation-name: loading-logo;
-        animation-duration: 3s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+}
+/*----------------------------*/
+/*----CLASSES COMMUNES--------*/
+/*----------------------------*/
+body{
+    font-family: RobotoR;
+    margin: 0px auto;
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
 }
+/*-----HEADER-----*/
 .header{
     position: fixed;
     top: 0;
@@ -154,8 +233,38 @@ body{
         width: 200px;
         padding: 15px 0px 15px 0px;
     }
-    
 }
+/*-----PIED DE PAGE---------*/
+.footer{
+    background-color:#353535;
+    color: white;
+    width: 100%;
+    &__bloc{
+        margin-top: 5%;
+        padding: 3%;   
+        .logo-reverse{
+            filter: invert(100%);
+        }
+        
+        &--link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            line-height: 40%;
+            &:hover{
+                text-decoration: underline;
+            }
+            &-picto{
+                margin-right: 10px;
+            }
+        }
+
+    }
+}
+/*----------------------------*/
+/*------CLASSES INDEX--------*/
+/*----------------------------*/
 .main-index{
     margin-top: 66px;
     margin-right: -2px;
@@ -375,7 +484,6 @@ body{
     }
 
 }
-
 .nouveau{
     background-color: $color-tertiary;
     color: #1c7a63;
@@ -388,6 +496,9 @@ body{
     animation-duration: 2000ms;
     animation-iteration-count: infinite;
 } 
+/*----------------------------*/
+/*------CLASSES MENUS--------*/
+/*----------------------------*/
 .main-restaurants{
     margin-bottom: -5%;
     padding-bottom: 5%;
@@ -482,7 +593,6 @@ body{
 
     }
 }
-/*-----PLATS DES MENUS---------*/
 .unService{
     width: 30%;
     &__separateur{
@@ -552,35 +662,6 @@ body{
         }
     }
 
-}
-
-/*-----PIED DE PAGE---------*/
-.footer{
-    background-color:#353535;
-    color: white;
-    width: 100%;
-    &__bloc{
-        margin-top: 5%;
-        padding: 3%;   
-        .logo-reverse{
-            filter: invert(100%);
-        }
-        
-        &--link{
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: white;
-            line-height: 40%;
-            &:hover{
-                text-decoration: underline;
-            }
-            &-picto{
-                margin-right: 10px;
-            }
-        }
-
-    }
 }
 /*--------------------------------
 --------FORMAT TABLETTE-----------
