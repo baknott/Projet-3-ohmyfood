@@ -1964,7 +1964,7 @@ body a {
   font-size: 1.5em;
   font-family: RobotoM;
   color: rgb(56, 56, 56);
-  width: 150px;
+  width: 180px;
 }
 .main-index .form__description {
   background-color: #F2F2F2;
@@ -2118,11 +2118,19 @@ body a {
 }
 .main-index .restaurant__cards .card .favorites__check:hover + .favorites__heart {
   opacity: 1;
-  color: #9356DC;
+  background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main-index .restaurant__cards .card .favorites__check:checked + .favorites__heart {
   opacity: 1;
-  color: #9356DC;
+  background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .main-index .restaurant__cards .card .favorites__check:hover {
   cursor: pointer;
@@ -2208,11 +2216,19 @@ body a {
 }
 .menu__title .favorites__check:hover + .favorites__heart {
   opacity: 1;
-  color: #9356DC;
+  background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu__title .favorites__check:checked + .favorites__heart {
   opacity: 1;
-  color: #9356DC;
+  background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .menu__title .favorites__check:hover {
   cursor: pointer;
